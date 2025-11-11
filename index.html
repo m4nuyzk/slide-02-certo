@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Relações entre Medidas e Funções</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Música de fundo -->
+  <audio id="bgMusic" loop>
+    <source src="https://cdn.pixabay.com/download/audio/2023/03/07/audio_13f2a6c50b.mp3?filename=soft-inspiring-ambient-14279.mp3" type="audio/mpeg">
+  </audio>
+  <button id="musicBtn">🎵 Música: OFF</button>
+
+  <!-- Slides -->
+  <div class="slider" id="slider">
+
+    <!-- Slide 1 -->
+    <div class="slide">
+      <div class="content">
+        <h1>📏 Relações entre Medidas e Funções</h1>
+        <p>As funções matemáticas são usadas para representar como uma grandeza varia em relação a outra. Elas nos ajudam a entender padrões, comparar medidas e prever resultados.</p>
+        <img src="https://media.giphy.com/media/XGzPZ0jZQ2z0A/giphy.gif" alt="Relações matemáticas">
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="slide">
+      <div class="content">
+        <h1>📐 Perímetro do Quadrado</h1>
+        <p>O perímetro de um quadrado é calculado multiplicando o valor do lado por 4.  
+        Essa é uma <strong>função do 1º grau</strong>, pois a relação entre o lado e o perímetro é direta e linear.</p>
+        <p><strong>Fórmula:</strong> P = 4 × L</p>
+        <img src="https://media.giphy.com/media/3o7TKGMzq5BWeBHwIo/giphy.gif" alt="Perímetro do quadrado">
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="slide">
+      <div class="content">
+        <h1>🔲 Área do Quadrado</h1>
+        <p>A área de um quadrado é obtida multiplicando o lado por ele mesmo.  
+        Essa relação é uma <strong>função do 2º grau</strong>, pois envolve a multiplicação de uma medida por ela mesma.</p>
+        <p><strong>Fórmula:</strong> A = L²</p>
+        <img src="https://media.giphy.com/media/l3vR0QZzRzE6R3Jlu/giphy.gif" alt="Área do quadrado">
+      </div>
+    </div>
+
+    <!-- Slide 4 -->
+    <div class="slide">
+      <div class="content">
+        <h1>⚪ Comprimento da Circunferência</h1>
+        <p>O comprimento da circunferência é a medida do seu contorno.  
+        Ele depende diretamente do raio, sendo uma <strong>função do 1º grau</strong>.</p>
+        <p><strong>Fórmula:</strong> C = 2πr</p>
+        <img src="https://media.giphy.com/media/3o6MblzBvjJDJ9bOXC/giphy.gif" alt="Circunferência">
+      </div>
+    </div>
+
+    <!-- Slide 5 -->
+    <div class="slide">
+      <div class="content">
+        <h1>⚫ Área da Circunferência</h1>
+        <p>A área da circunferência é uma <strong>função do 2º grau</strong>, pois varia com o quadrado do raio.  
+        Ao aumentar o raio, a área cresce muito mais rápido!</p>
+        <p><strong>Fórmula:</strong> A = πr²</p>
+        <img src="https://media.giphy.com/media/fVtfT2kTP4FhK/giphy.gif" alt="Área da circunferência">
+      </div>
+    </div>
+
+    <!-- Slide 6 -->
+    <div class="slide">
+      <div class="content">
+        <h1>📊 Conclusão</h1>
+        <p>As relações entre medidas e funções estão presentes em diversas situações do nosso dia a dia.  
+        Enquanto funções do 1º grau mostram variações proporcionais, as do 2º grau representam crescimentos quadráticos, como áreas e superfícies.</p>
+        <img src="https://media.giphy.com/media/d31w24psGYeekCZy/giphy.gif" alt="Resumo visual">
+      </div>
+    </div>
+
+    <!-- Slide 7 -->
+    <div class="slide">
+      <div class="content">
+        <h1>🎯 Atividade</h1>
+        <p>Se o lado de um quadrado mede 5 cm, qual será o <strong>perímetro</strong> dessa figura?</p>
+
+        <div class="quiz">
+          <button class="quiz-option" data-correct="false">A) 10 cm</button>
+          <button class="quiz-option" data-correct="false">B) 15 cm</button>
+          <button class="quiz-option" data-correct="true">C) 20 cm</button>
+          <button class="quiz-option" data-correct="false">D) 25 cm</button>
+        </div>
+
+        <p id="quizResult"></p>
+        <img src="https://media.giphy.com/media/3o7aTskHEUdgCQAXde/giphy.gif" alt="Quiz divertido">
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Botões -->
+  <div class="btn-container">
+    <button id="prevBtn">⬅️ Anterior</button>
+    <button id="nextBtn">Próximo ➡️</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
